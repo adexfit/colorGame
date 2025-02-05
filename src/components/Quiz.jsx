@@ -125,7 +125,7 @@ const Quiz = () => {
           data-testid="gameStatus"
         >
           {gameStatus}
-          {gameOver ? "Game Over" : ""}
+          {gameOver ? " Game Over" : ""}
         </p>
       </div>
 

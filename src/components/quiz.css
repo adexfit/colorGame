@@ -167,6 +167,9 @@
   .quest {
     width: 50%;
   }
+  .quest p {
+    width: 209px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
