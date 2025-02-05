@@ -107,7 +107,7 @@ const Quiz = () => {
             backgroundColor: question[0]?.hex,
           }}
         >
-          {question[0]?.hex}
+          {""}
         </p>
         <p
           style={
@@ -138,7 +138,6 @@ const Quiz = () => {
             onClick={() => handleClick(a)}
           >
             {" "}
-            {a.hex}
           </div>
         ))}
       </div>
