@@ -111,12 +111,12 @@ const Quiz = () => {
         </p>
         <p
           style={
-            gameStatus == "Wrong"
+            gameStatus == "Correct"
               ? {
-                  color: "red",
+                  color: "green",
                 }
               : {
-                  color: "green",
+                  color: "red",
                 }
           }
           className={`fade-in-text ${
