@@ -149,6 +149,7 @@
 @media only screen and (max-width: 600px) {
   .quiz_card {
     width: auto;
+    margin: 0 auto;
   }
   h1 {
     font-size: 24px;
