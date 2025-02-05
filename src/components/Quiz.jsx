@@ -141,7 +141,11 @@ const Quiz = () => {
           </div>
         ))}
       </div>
-      <button className="newgame" onClick={handleNewGame}>
+      <button
+        className="newgame"
+        onClick={handleNewGame}
+        data-testid="newGameButton"
+      >
         New Game
       </button>
     </div>
