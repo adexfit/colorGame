@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Outfit:wght@100..900&display=swap");
+
+html,
+body {
+  background-color: #1c0045;
+  padding: 0px;
+  font-family: "Inter", serif;
+}
+
+h1 {
+  color: #6515db;
+  margin: 0px 0px;
+}
+
+p {
+  text-align: center;
+}

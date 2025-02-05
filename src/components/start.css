@@ -1,0 +1,27 @@
+.card {
+  width: 30%;
+  background-color: aliceblue;
+  color: rgb(36, 36, 36);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  margin: 2em auto;
+  border-radius: 12px;
+}
+
+.submitBtn {
+  width: 100%;
+  color: #fff;
+  background-color: #6c47a1;
+  padding: 12px 20px;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: #5f2ea3;
+}
