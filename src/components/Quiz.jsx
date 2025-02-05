@@ -96,9 +96,6 @@ const Quiz = () => {
     <div className="quiz_card">
       <h1 data-testid="score">Current Score: {scPoint} point</h1>
       <div className="quest">
-        <p data-testid="gameInstructions">
-          Guess the colour below by selecting from the options:
-        </p>
         <p
           // id="question"
           data-testid="colorBox"
@@ -108,6 +105,9 @@ const Quiz = () => {
           }}
         >
           {""}
+        </p>
+        <p data-testid="gameInstructions">
+          Guess the colour above by selecting from the options:
         </p>
         <p
           style={
